@@ -14,7 +14,6 @@ from keras import backend as K
 import gc
 from tqdm import tqdm
 from keras.layers import MaxPooling1D, Conv1D, LeakyReLU, BatchNormalization, Dense, Flatten
-K.clear_session()
 from test import Validation
 
 
