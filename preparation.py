@@ -59,14 +59,14 @@ for i in range(len(list_sig)):
  # Signal normalization
  signal=signal/np.abs(np.max(signal))
 
- # Read wrd file
- wrd_file=wav_file.replace(".wav",".wrd")
- wrd_sig=ReadList(wrd_file)
- beg_sig=int(wrd_sig[0].split(' ')[0])
- end_sig=int(wrd_sig[-1].split(' ')[1])
+#  # Read wrd file
+#  wrd_file=wav_file.replace(".wav",".wrd")
+#  wrd_sig=ReadList(wrd_file)
+#  beg_sig=int(wrd_sig[0].split(' ')[0])
+#  end_sig=int(wrd_sig[-1].split(' ')[1])
  
- # Remove silences
- signal=signal[beg_sig:end_sig]
+#  # Remove silences
+#  signal=signal[beg_sig:end_sig]
 
  
  # Save normalized speech
